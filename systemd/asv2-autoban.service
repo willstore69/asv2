@@ -1,0 +1,7 @@
+[Unit]
+Description=ASV2 Autoban (SSH+XRAY quota & multi-login)
+After=network.target
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/asv2 autoban
+MemoryMax=50M

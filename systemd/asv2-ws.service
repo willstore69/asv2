@@ -1,0 +1,11 @@
+[Unit]
+Description=ASV2 WS bridge (127.0.0.1:3001 -> SSH 22, sharing 80/443)
+After=network.target
+[Service]
+ExecStart=/usr/local/bin/asv2-ws --listen 127.0.0.1 --port 3001 --target 127.0.0.1 --tport 22
+Restart=always
+RestartSec=2
+MemoryMax=40M
+LimitNOFILE=65535
+[Install]
+WantedBy=multi-user.target

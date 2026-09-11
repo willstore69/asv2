@@ -1,0 +1,10 @@
+[Unit]
+Description=ASV2 Telegram Bot (1 bot multi-server)
+After=network.target asv2-api.service
+[Service]
+ExecStart=/usr/local/bin/asv2 bot
+Restart=always
+RestartSec=5
+MemoryMax=60M
+[Install]
+WantedBy=multi-user.target
