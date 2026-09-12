@@ -1,7 +1,7 @@
 # RILIS-ONLY: hanya 8 file di bawah yang masuk repo publik.
 # Source, docs, script helper tetap private lokal.
 *
-!install.sh
+!asv2-install
 !asv2
 !asv2-ws
 !hcr-server
