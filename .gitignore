@@ -1,17 +1,12 @@
-# Repo ini RILIS-ONLY (publik): hanya artefak rilis yang di-track.
-# Source code TIDAK PERNAH masuk repo ini (tetap di repo private).
-src/
-*.o
-*.a
-*.so
-*.log
-/tmp/
-# secrets lokal (jangan pernah commit)
-*.pem
-*.key
-.env
-api.conf
-bot.conf
-servers.list
-*.sqlite3
-*.zip
+# RILIS-ONLY: hanya 8 file di bawah yang masuk repo publik.
+# Source, docs, script helper tetap private lokal.
+*
+!install.sh
+!asv2
+!asv2-ws
+!hcr-server
+!hcr-server.sha256
+!CHECKSUMS.sha256
+!VERSION
+!.gitignore
+!/.gitignore

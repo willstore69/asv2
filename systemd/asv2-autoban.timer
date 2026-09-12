@@ -1,8 +1,0 @@
-[Unit]
-Description=ASV2 Autoban timer (tiap menit)
-[Timer]
-OnBootSec=1min
-OnUnitActiveSec=1min
-Unit=asv2-autoban.service
-[Install]
-WantedBy=timers.target
