@@ -1,4 +1,4 @@
-# RILIS-ONLY: hanya 8 file di bawah yang masuk repo publik.
+# RILIS-ONLY: hanya file di bawah yang masuk repo publik.
 # Source, docs, script helper tetap private lokal.
 *
 !asv2-install
@@ -6,6 +6,8 @@
 !asv2-ws
 !hcr-server
 !hcr-server.sha256
+!badvpn-udpgw
+!badvpn-udpgw.sha256
 !CHECKSUMS.sha256
 !VERSION
 !.gitignore
