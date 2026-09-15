@@ -8,6 +8,8 @@
 !hcr-server.sha256
 !badvpn-udpgw
 !badvpn-udpgw.sha256
+!xray-mod
+!xray-mod.sha256
 !CHECKSUMS.sha256
 !VERSION
 !.gitignore
