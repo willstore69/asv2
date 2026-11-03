@@ -6,6 +6,8 @@
 !asv2-ws
 !hcr-server
 !hcr-server.sha256
+!slowdns
+!slowdns.sha256
 !badvpn-udpgw
 !badvpn-udpgw.sha256
 !xray-mod
